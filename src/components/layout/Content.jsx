@@ -10,16 +10,16 @@ const Content = props => (
     <main className="Content">
         <Switch>
             <Route path="/about">
-                <About />     
+                <About />
             </Route>
             <Route path="/param/:id">
-                <Param />     
+                <Param />
             </Route>
             <Route exact path="/">
-                <Home />     
+                <Home />
             </Route>
             <Route path="*">
-                <NotFound /> 
+                <NotFound />
             </Route>
         </Switch>
     </main>
